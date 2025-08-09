@@ -1,8 +1,13 @@
 import java.io.Serializable;
 
 public class output implements Serializable{
-    String message;
-    public output(String message){
-        this.message=message;
+    private static final long serialVersionUID = 1L;
+    String result;
+    public output(String result){
+        this.result=result;
+
+    }
+    public String toString(){
+        return result;
     }
 }

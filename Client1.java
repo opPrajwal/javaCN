@@ -4,6 +4,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.OutputStream;
 import java.net.Socket;
+import java.util.Scanner;
 import java.util.StringJoiner;
 
 public class Client1 {
@@ -53,7 +54,19 @@ public class Client1 {
     }
 
     public static void main(String[] args)    {
-      connect("192.168.108.49", 3000);
+    //     Scanner s=new Scanner(System.in);
+    //     System.out.println("enter the number of connections u have to make ");
+    //     int num=s.nextInt();
+    //     String[] ips=new String[num];
+
+    //     for(int i=0;i<num;i++){
+    //          System.out.println("enter ip "+(i+1));
+    //          ips[i]=s.nextLine();
+    //     }
+    //    for (String ip : ips) {
+           
+    //    }
+    connect("192.168.108.49", 3000);
     }
     
 }
